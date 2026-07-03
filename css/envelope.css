@@ -1,0 +1,158 @@
+#envelopeSection{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    background:#111;
+
+    overflow:hidden;
+
+}
+
+.envelope{
+
+    position:relative;
+
+    width:320px;
+
+    height:210px;
+
+}
+
+.envelope-back{
+
+    position:absolute;
+
+    inset:0;
+
+    background:#f7e7d8;
+
+    border-radius:8px;
+
+}
+
+.envelope-front{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:100%;
+
+    height:120px;
+
+    background:#ead8c5;
+
+    clip-path:polygon(
+        0 0,
+        50% 70%,
+        100% 0,
+        100% 100%,
+        0 100%
+    );
+
+}
+
+.envelope-flap{
+
+    position:absolute;
+
+    top:0;
+
+    width:100%;
+
+    height:120px;
+
+    background:#efdfcf;
+
+    clip-path:polygon(
+        0 0,
+        100% 0,
+        50% 100%
+    );
+
+    transform-origin:top;
+
+    transition:1.5s;
+}
+
+.letter{
+
+    position:absolute;
+
+    left:20px;
+
+    right:20px;
+
+    top:20px;
+
+    height:170px;
+
+    background:white;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    transition:1.5s;
+
+}
+
+.seal{
+
+    position:absolute;
+
+    left:50%;
+
+    top:72px;
+
+    transform:translateX(-50%);
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:50%;
+
+    background:var(--gold);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    font-size:22px;
+
+    color:white;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+.touch{
+
+    margin-top:40px;
+
+    color:white;
+
+    opacity:.75;
+
+    letter-spacing:2px;
+
+}

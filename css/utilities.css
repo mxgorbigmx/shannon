@@ -1,0 +1,13 @@
+.container{
+    width:min(100%,420px);
+    margin:auto;
+    padding:24px;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.hidden{
+    display:none;
+}

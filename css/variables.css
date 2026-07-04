@@ -1,32 +1,38 @@
 :root{
 
-    /* Colores */
-    --rose:#F6D9DA;
-    --gold:#D4AF37;
-    --gold-light:#E8C766;
-    --cream:#FFF9F5;
-    --champagne:#F3E8DD;
-    --text:#4F4038;
-    --white:#FFFFFF;
-    --shadow:0 20px 50px rgba(0,0,0,.15);
+    /* ========= PALETA ========= */
+    --color-ivory: #FFFDF9;
+    --color-champagne: #F6EEE7;
+    --color-rose: #EFD8D3;
+    --color-rose-soft: #F8ECE9;
+    --color-gold: #C9A24F;
+    --color-gold-light: #E6CC87;
+    --color-text: #55463F;
+    --color-text-soft: #85736B;
+    --color-white: #FFFFFF;
 
-    /* Tipografías */
-    --title:'Great Vibes', cursive;
-    --subtitle:'Cormorant Garamond', serif;
-    --textfont:'Poppins', sans-serif;
+    /* ========= SOMBRAS ========= */
+    --shadow-soft:0 10px 25px rgba(0,0,0,.08);
+    --shadow-medium:0 20px 45px rgba(0,0,0,.12);
+    --shadow-strong:0 30px 60px rgba(0,0,0,.18);
 
-    /* Transiciones */
-    --speed:.45s;
-    --radius:28px;
+    /* ========= BORDES ========= */
+    --radius-sm:8px;
+    --radius-md:16px;
+    --radius-lg:28px;
+    --radius-xl:40px;
 
-    /* Envelope */
-    --envelope-width:320px;
-    --envelope-height:220px;
-    --paper:#FFFDF9;
-    --paper-shadow:#EEDCC8;
-    --envelope:#EEDBCB;
-    --envelope-dark:#E4CEBC;
-    --wax:#C99A2E;
-    --shadow-soft:0 30px 60px rgba(0,0,0,.18);
+    /* ========= TIPOGRAFÍAS ========= */
+    --font-title:'Great Vibes',cursive;
+    --font-heading:'Cormorant Garamond',serif;
+    --font-body:'Poppins',sans-serif;
 
+    /* ========= TRANSICIONES ========= */
+    --transition:.45s ease;
+
+    /* ========= Z INDEX ========= */
+    --z-background:-2;
+    --z-particles:-1;
+    --z-content:10;
+    --z-modal:100;
 }

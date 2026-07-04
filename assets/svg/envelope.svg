@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg>
+    <defs id="defs1" />
+        <linearGradient
+            id="paperGradient"
+            x1="0%"
+            y1="0%"
+            x2="0%"
+            y2="100%">
+            <stop offset="0%" stop-color="#FFFDF9"/>
+            <stop offset="100%" stop-color="#F3E7DC"/>
+        </linearGradient>
+        <linearGradient
+            id="goldGradient"
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="100%">
+            <stop offset="0%" stop-color="#FFF0B7"/>
+            <stop offset="40%" stop-color="#E7C86F"/>
+            <stop offset="100%" stop-color="#B68C2F"/>
+        </linearGradient>
+        <filter id="shadow">
+            <feDropShadow
+                dx="0"
+                dy="12"
+                stdDeviation="12"
+                flood-opacity=".18"/>
+        </filter>
+        <g id="Envelope">
+        <rect
+            x="30"
+            y="60"
+            rx="12"
+            width="300"
+            height="170"
+            fill="url(#paperGradient)"
+            stroke="url(#goldGradient)"
+            stroke-width="2"
+            filter="url(#shadow)"/>
+
+        <g id="Flap">
+            <path
+                d="M30 60
+                L180 165
+                L330 60
+                Z"
+                fill="#F6EEE7"
+                stroke="url(#goldGradient)"
+                stroke-width="2"/>
+
+</svg>

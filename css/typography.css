@@ -1,0 +1,55 @@
+/* ===========================
+   TÍTULOS PRINCIPALES
+=========================== */
+
+.title{
+    font-family:var(--font-title);
+    font-size:clamp(3rem,8vw,5rem);
+    color:var(--color-gold);
+    font-weight:400;
+    line-height:1.1;
+}
+
+/* ===========================
+   SUBTÍTULOS
+=========================== */
+
+.heading{
+    font-family:var(--font-heading);
+    font-size:2rem;
+    color:var(--color-text);
+    letter-spacing:2px;
+    font-weight:600;
+}
+
+/* ===========================
+   TEXTO NORMAL
+=========================== */
+
+.text{
+    font-family:var(--font-body);
+    font-size:1rem;
+    color:var(--color-text-soft);
+    line-height:1.8;
+}
+
+/* ===========================
+   FECHAS
+=========================== */
+
+.date{
+    font-family:var(--font-heading);
+    font-size:1.2rem;
+    color:var(--color-gold);
+    letter-spacing:3px;
+}
+
+/* ===========================
+   BOTONES
+=========================== */
+
+.button-text{
+    font-family:var(--font-body);
+    font-size:1rem;
+    font-weight:600;
+}

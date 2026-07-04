@@ -1,3 +1,18 @@
+async function initEnvelope(){
+    const response = await fetch("assets/svg/production/envelope.svg");
+    const svg = await response.text();
+    document
+        .querySelector(".envelope-container")
+        .innerHTML = svg;
+    initEnvelopeAnimation();
+}
+
+function initEnvelopeAnimation(){
+    gsap.set("#letter",{
+        y:0
+    });
+}
+
 function initEnvelope(){
     gsap.set("#hero",{
         opacity:0
@@ -38,27 +53,3 @@ gsap.to("#flap", {
     duration: 1.2,
     ease: "power2.inOut"
 });
-
-async function initEnvelope(){
-
-    const response = await fetch("assets/svg/envelope.svg");
-
-    const svg = await response.text();
-
-    document
-        .querySelector(".envelope-container")
-        .innerHTML = svg;
-
-    initEnvelopeAnimation();
-
-}
-
-function initEnvelopeAnimation(){
-
-    gsap.set("#letter",{
-
-        y:0
-
-    });
-
-}

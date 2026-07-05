@@ -5,8 +5,8 @@ async function initEnvelope() {
         const svg = await response.text();
         document.querySelector(".envelope-container").innerHTML = svg;
         console.log("SVG cargado");
-        console.log("flap:", document.querySelector("#flap"));
-        console.log("letter:", document.querySelector("#letter"));
+        //console.log("flap:", document.querySelector("#flap"));
+        //console.log("letter:", document.querySelector("#letter"));
         console.log("seal:", document.querySelector("#seal"));
     } catch (e) {
         console.error(e);

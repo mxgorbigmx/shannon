@@ -7,7 +7,7 @@ async function initEnvelope() {
         console.log("SVG cargado");
         console.log("flap:", document.querySelector("#flap"));
         console.log("letter:", document.querySelector("#letter"));
-        console.log("seal:", document.querySelector("#seal"));
+        console.log("monogram:", document.querySelector("#monogram"));
     } catch (e) {
         console.error(e);
     }

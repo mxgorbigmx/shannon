@@ -26,9 +26,9 @@
      inkscape:document-units="mm"
      showgrid="true"
      showguides="true"
-     inkscape:zoom="1.1793635"
-     inkscape:cx="307.79313"
-     inkscape:cy="218.3381"
+     inkscape:zoom="2.3587271"
+     inkscape:cx="204.34751"
+     inkscape:cy="107.47322"
      inkscape:window-width="1280"
      inkscape:window-height="649"
      inkscape:window-x="-8"
@@ -286,7 +286,7 @@
        fy="43.038136"
        r="5.2700181" /></defs><g
      inkscape:groupmode="layer"
-     id="layer5"
+     id="Guides"
      inkscape:label="Guides"><rect
        style="fill:#f8ece8;fill-opacity:1;stroke-width:0.400879"
        id="rect1"
@@ -299,10 +299,9 @@
      id="shadow_back"
      inkscape:label="shadow_back"
      style="display:inline" /><g
-     inkscape:label="envelope_back"
      inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline"><path
+     id="envelope"
+     inkscape:label="envelope"><path
        style="display:inline;fill:url(#linearGradient4);fill-opacity:1;stroke:url(#linearGradient6);stroke-width:0.529167;stroke-linejoin:round;stroke-dasharray:none"
        id="rect3"
        width="79.375"
@@ -313,7 +312,11 @@
        sodipodi:type="rect"
        d="M 12.103355,15.875 H 82.954274 A 4.3582263,4.3582263 45 0 1 87.3125,20.233226 V 57.84487 a 3.0092979,3.0092979 135 0 1 -3.009298,3.009298 H 11.183811 A 3.2463106,3.2463106 45 0 1 7.9375,57.607857 l 0,-37.567002 A 4.1658551,4.1658551 135 0 1 12.103355,15.875 Z"
        transform="matrix(3.7429843,0,0,3.7569207,1.7403713,1.116296)"
-       inkscape:label="sobre" /><path
+       inkscape:label="sobre" /></g><g
+     inkscape:label="flap"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"><path
        style="display:inline;opacity:0.15;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.479086;stroke-linejoin:round;stroke-dasharray:none;filter:url(#filter16)"
        d="m 41.453686,44.522877 13.027268,-0.09743 C 58.930181,46.948453 95.427149,19.278495 80.655507,18.890502 65.883862,18.502511 36.171903,18.873261 12.201732,18.736913 6.5289292,18.704643 12.414382,34.4469 41.453686,44.522877 Z"
        id="path7-3"
@@ -334,7 +337,7 @@
      inkscape:groupmode="layer"
      id="seal"
      inkscape:label="seal"><g
-       id="monogram"
+       id="g57-9"
        inkscape:label="monogram"
        style="display:inline"
        transform="translate(-0.40845781,-0.90654796)"><g

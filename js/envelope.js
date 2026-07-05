@@ -9,12 +9,12 @@ function initEnvelopeAnimation() {
     const flap = document.querySelector("#flap");
     const letter = document.querySelector("#letter");
     const monogram = document.querySelector("#monogram");
+
+    //comprobacion
     console.log(flap);
     console.log(letter);
     console.log(monogram);
-}
 
-function initEnvelopeAnimation() {
     gsap.set("#letter", {
         y: 0
     });
@@ -29,7 +29,45 @@ function initEnvelopeAnimation() {
         ease: "sine.inOut"
     });
 
-    const monogram = document.querySelector("#monogram");
-    monogram.addEventListener("click", openEnvelope);
+    const seal = document.querySelector("#seal");
+    const sonido = new Audio('/assets/music/stamp.mp3');
+    //seal.addEventListener("click", );
+ 
+    let opened = false;
+    
+    seal.addEventListener("click", () => {
+        if (opened) return;
+            opened = true;
+            sonido.currentTime = 0;
+            sonido.play();
+        
+        openEnvelope();
+    });
+}
 
+function openEnvelope() {
+
+    const tl = gsap.timeline();
+    tl.to("#monogram", {
+        scale: 0.95,
+        duration: 0.15
+    })
+    .to("#monogram", {
+        scale: 1,
+        duration: 0.15
+    })
+    .to("#layer1", {
+        /*y: -50,
+        duration: 1,
+        ease: "power2.inOut" */
+        rotation: -180,
+        svgOrigin: "180 60",
+        duration: 2.2,
+        ease: "power2.inOut"
+    })
+    .to("#letter", {
+        y: -150,
+        duration: 1.2,
+        ease: "power4.out"
+    }, "-=0.8");
 }

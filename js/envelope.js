@@ -6,10 +6,10 @@ async function initEnvelope() {
 }
 
 function initEnvelopeAnimation() {
-    const flap = document.querySelector("#flap");
-    const letter = document.querySelector("#letter");
-    const monogram = document.querySelector("#monogram");
-    console.log(flap);
-    console.log(letter);
-    console.log(monogram);
+    gsap.set("#letter", {
+        y: 0
+    });
+    gsap.set("#flap", {
+        transformOrigin: "50% 0%"
+    });
 }
